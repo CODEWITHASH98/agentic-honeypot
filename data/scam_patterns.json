@@ -1,0 +1,1202 @@
+{
+  "p001": {
+    "category": "telecom",
+    "confidence": 86,
+    "fingerprint": "airtel app claim data free hurry",
+    "sample": "CONGRATULATIONS! FREE 2GB data is yours! Claim on Airtel Thanks App Now."
+  },
+  "p002": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "click feedback share verified",
+    "sample": "Vi-India's FASTEST 4G, Ookla-verified. Click to share your feedback."
+  },
+  "p003": {
+    "category": "telecom",
+    "confidence": 84,
+    "fingerprint": "app channel download free kite mobile study",
+    "sample": "Study from Home with Vi!! Watch Kite Victers Channel FREE."
+  },
+  "p004": {
+    "category": "banking",
+    "confidence": 90,
+    "fingerprint": "apply emi home loan low offer rates",
+    "sample": "New Home Loan offer for you | Rates start as low as 6.75%"
+  },
+  "p005": {
+    "category": "banking",
+    "confidence": 88,
+    "fingerprint": "bank card click debit emi federal offers",
+    "sample": "Get your AC now and pay later using Federal Bank Debit Card EMI!"
+  },
+  "p006": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "airtel alerts free installation order security",
+    "sample": "Get Airtel Xsafe- Wi-Fi enabled surveillance solution."
+  },
+  "p007": {
+    "category": "telecom",
+    "confidence": 86,
+    "fingerprint": "activate bit click enjoy premium subscription unlimited zee",
+    "sample": "Rs299 recharged! Enjoy Unlimited Calls. Your ZEE5 Premium credited!"
+  },
+  "p008": {
+    "category": "telecom",
+    "confidence": 84,
+    "fingerprint": "airtel devices fiber free gbps router speeds xstream",
+    "sample": "Get Airtel Xstream Fiber & enjoy up to 1 Gbps speeds!"
+  },
+  "p009": {
+    "category": "financial",
+    "confidence": 85,
+    "fingerprint": "diwali off refyne salary savings signup withdrawals",
+    "sample": "Get 75% off on salary withdrawals. Sign up now Team Refyne"
+  },
+  "p010": {
+    "category": "telecom",
+    "confidence": 88,
+    "fingerprint": "abhishek bachchan big bull disney hotstar unlimited",
+    "sample": "THE BIG BULL starring Abhishek Bachchan on Disney+ Hotstar VIP."
+  },
+  "p011": {
+    "category": "financial",
+    "confidence": 90,
+    "fingerprint": "bag cashback diwali duffle free offers sbi trolley vip vishal",
+    "sample": "Biggest Diwali Offers@ VISHAL + FREE-VIP Trolley + SBI Cashback"
+  },
+  "p012": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "airtel app claim free rewards thanks visit",
+    "sample": "Don't miss out on FREE rewards on Airtel Thanks App."
+  },
+  "p013": {
+    "category": "banking",
+    "confidence": 92,
+    "fingerprint": "apply axis bank card cashback credit flipkart gift",
+    "sample": "Get 5% Unlimited Cashback with Flipkart Axis Bank Credit Card."
+  },
+  "p014": {
+    "category": "financial",
+    "confidence": 85,
+    "fingerprint": "cashback flat gold lenskart membership off special",
+    "sample": "Come back to Lenskart & Avail SPECIAL Holi Offers +50% Cashback"
+  },
+  "p015": {
+    "category": "financial",
+    "confidence": 82,
+    "fingerprint": "exclusive flat fri merchandise nov off pantaloons range sale",
+    "sample": "PANTALOONS BLACK FRIDAY SALE is back! FLAT 25% OFF"
+  },
+  "p016": {
+    "category": "financial",
+    "confidence": 80,
+    "fingerprint": "click daily delivered dunzo fast fresh groceries",
+    "sample": "Dunzo Daily is now live! Get all groceries delivered fresh!"
+  },
+  "p017": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "bit callertune click favorite music set song",
+    "sample": "Set your favorite song or your Name as Callertune."
+  },
+  "p018": {
+    "category": "telecom",
+    "confidence": 84,
+    "fingerprint": "airtel click cost delivery extra family friends gift order prepaid sim",
+    "sample": "Gift an Airtel Prepaid SIM to your friends and family."
+  },
+  "p019": {
+    "category": "banking",
+    "confidence": 88,
+    "fingerprint": "apply card click credit free inr limit pre qualified smart watch",
+    "sample": "Apply for Pre-qualified credit card limit up to INR 150,000"
+  },
+  "p020": {
+    "category": "financial",
+    "confidence": 82,
+    "fingerprint": "bit click day free hurry points shop unlimited",
+    "sample": "Rs.250 credited as FREE UNLIMITED Cash Points to shop."
+  },
+  "p021": {
+    "category": "financial",
+    "confidence": 84,
+    "fingerprint": "beauty bit click destination gifts kits offers shop special",
+    "sample": "Shoppers Stop Showstoppers 2021 - The Biggest Beauty Extravaganza!"
+  },
+  "p022": {
+    "category": "financial",
+    "confidence": 80,
+    "fingerprint": "best bit click dash deals hours last",
+    "sample": "Only Last 3 hours to get the Best Deals at The DASH"
+  },
+  "p023": {
+    "category": "telecom",
+    "confidence": 86,
+    "fingerprint": "bit click customer hello reward store vi vouchers zomato",
+    "sample": "Hello Vi customer! Visit Vi reward store to claim your vouchers"
+  },
+  "p024": {
+    "category": "telecom",
+    "confidence": 84,
+    "fingerprint": "bit click cowin safe slots stay vaccinated",
+    "sample": "Stay safe! Get yourself vaccinated today! Visit Vi app now."
+  },
+  "p025": {
+    "category": "financial",
+    "confidence": 82,
+    "fingerprint": "atta code free ghee gift offers sep shopping tata tea vishal",
+    "sample": "BIGGEST OFFERS@VISHAL - FREE SHOPPING + Atta + Ghee + FREE GIFT"
+  },
+  "p026": {
+    "category": "financial",
+    "confidence": 80,
+    "fingerprint": "bit cashew click deals good life off point smart store weekend",
+    "sample": "Weekend Deals @SMART Point Store, Rs 20 OFF"
+  },
+  "p027": {
+    "category": "financial",
+    "confidence": 82,
+    "fingerprint": "bit buy click favourite free freedom styles unlimited",
+    "sample": "Buy 2 styles, Get 2 FREE at Unlimited Fashion Stores."
+  },
+  "p028": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "call indian inform number phone received toll",
+    "sample": "While receiving international call inform toll free 1800110420"
+  },
+  "p029": {
+    "category": "banking",
+    "confidence": 90,
+    "fingerprint": "cash click congrats confirmed loan paperwork quick rupees true balance",
+    "sample": "Get Cash Loan up to Rs.50,000 at Truebalance. Quick approval!"
+  },
+  "p030": {
+    "category": "telecom",
+    "confidence": 86,
+    "fingerprint": "bit click data disney friends hotstar movie prime reunion ross zee",
+    "sample": "Ross & Rachel are back! Catch the FRIENDS Reunion on ZEE5"
+  },
+  "p031": {
+    "category": "financial",
+    "confidence": 84,
+    "fingerprint": "apparel bit click flat footwear fragrance off rush shoppersstop",
+    "sample": "Rush! Your favourite Apparel at upto 50% OFF shoppersstop.com"
+  },
+  "p032": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "bit click credited data digital recharge",
+    "sample": "Congratulations! On your Digital Recharge, additional 5GB Data credited"
+  },
+  "p033": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "app bit click movies premium shows watch",
+    "sample": "Premium movies only for you! Watch on Vi Movies & TV app!"
+  },
+  "p034": {
+    "category": "financial",
+    "confidence": 78,
+    "fingerprint": "benefits click confirm details greencard locked member missing profile review update",
+    "sample": "Dear Greencard member, Your profile seems incomplete."
+  },
+  "p035": {
+    "category": "telecom",
+    "confidence": 88,
+    "fingerprint": "bit click hello participate play t vi",
+    "sample": "Hello Vi customer, Season of T20! Participate in Vi Play Along"
+  },
+  "p036": {
+    "category": "telecom",
+    "confidence": 84,
+    "fingerprint": "airtel alert app data download free next recharge",
+    "sample": "FREE DATA ALERT! Avail 2GB FREE data on next Airtel Recharge"
+  },
+  "p037": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "days finishing pack recharge soon wynk",
+    "sample": "Pack will expire soon! Recharge with Rs98 for ad-free music."
+  },
+  "p038": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "app bit blockbuster click live mubarak movies safe series shows stay tv",
+    "sample": "Eid Mubarak! Stay home, stay safe & enjoy blockbuster movies"
+  },
+  "p039": {
+    "category": "banking",
+    "confidence": 88,
+    "fingerprint": "axis bank card cashback flipkart free lifetime",
+    "sample": "Get Lifetime FREE Card + 5% Unlimited Cashback with Flipkart Axis Bank"
+  },
+  "p040": {
+    "category": "telecom",
+    "confidence": 86,
+    "fingerprint": "amazon bit click disney family hotstar lines mobile orange plan postpaid prime select single voot zee",
+    "sample": "Vi Family 999 plan - 220GB data, UL Calls, Disney+ Hotstar"
+  },
+  "p041": {
+    "category": "financial",
+    "confidence": 84,
+    "fingerprint": "bag diwali duffle free offers sbi trolley vip vishal",
+    "sample": "Biggest Diwali Offers@ VISHAL - FREE-VIP Trolley + SBI Cashback"
+  },
+  "p042": {
+    "category": "banking",
+    "confidence": 90,
+    "fingerprint": "apply bank card cashback credit customer dear flipkart gift offer prime times triple",
+    "sample": "Dear Customer, Triple OFFER: Apply for Flipkart Axis Bank Credit Card."
+  },
+  "p043": {
+    "category": "financial",
+    "confidence": 82,
+    "fingerprint": "bit click facial maybelline point save smart special spinz store women",
+    "sample": "Women's Day Special at SMART POINT store - Beauty offers!"
+  },
+  "p044": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "awaits bit chat click explore journey kerala maya personalized tourism whatsapp",
+    "sample": "Kerala Holidays Made Easy! Click to chat with Kerala Tourism."
+  },
+  "p045": {
+    "category": "telecom",
+    "confidence": 84,
+    "fingerprint": "airtel check click enabled g handset ready sim smartphone upgrade",
+    "sample": "You deserve superfast unlimited 5G! Upgrade to a 5G handset!"
+  },
+  "p046": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "balance best click hello offers recharges services simply whatsapp",
+    "sample": "Hello! We are now on Whatsapp! For Best Offers, recharges!"
+  },
+  "p047": {
+    "category": "banking",
+    "confidence": 88,
+    "fingerprint": "apply bnkbzr free hassle home loan offer process soon",
+    "sample": "Apply now to avail a Home Loan offer starting at just 6.75%!"
+  },
+  "p048": {
+    "category": "financial",
+    "confidence": 80,
+    "fingerprint": "credentials high inform investment portals rbi received returns unknown verify",
+    "sample": "Verify the credentials of unknown callers offering high returns."
+  },
+  "p049": {
+    "category": "financial",
+    "confidence": 82,
+    "fingerprint": "flat live offer period sale shop vedix weekend",
+    "sample": "LIVE: Vedix Weekend Sale! Shop at FLAT Rs. 299!"
+  },
+  "p050": {
+    "category": "telecom",
+    "confidence": 86,
+    "fingerprint": "airtel click complimentary month new ott prepaid sim want",
+    "sample": "Want one more prepaid SIM? Unlimited 5G data and 17+ OTTs!"
+  },
+  "p051": {
+    "category": "telecom",
+    "confidence": 84,
+    "fingerprint": "activated app bit classic click free membership movies recharge sun unlocked voot zee",
+    "sample": "Yayy! We've activated FREE CLASSIC membership of Vi Movies & TV!"
+  },
+  "p052": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "app bit bigg boss click cost extra movies pack recharge unlimited watch",
+    "sample": "Bigg Boss chaahte hain! Recharge with Vi Unlimited249 or more!"
+  },
+  "p053": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "airtel check click enabled g now phone sim smartphone",
+    "sample": "Your Airtel SIM is 5G ready. Check if your Smartphone is 5G enabled."
+  },
+  "p054": {
+    "category": "telecom",
+    "confidence": 86,
+    "fingerprint": "amazon click disney enjoy high hotstar join plan postpaid prime speed subscription unlimited walk",
+    "sample": "Want Unlimited high speed data? Join Vi Postpaid Entertainment plus!"
+  },
+  "p055": {
+    "category": "telecom",
+    "confidence": 88,
+    "fingerprint": "airtel amazon black call click dth dthi disney hotstar prime subscription switch year",
+    "sample": "1 year FREE subscription of Amazon Prime & Disney+Hotstar + FREE DTH."
+  },
+  "p056": {
+    "category": "financial",
+    "confidence": 82,
+    "fingerprint": "app bit click delivered fruits groceries home just meat mins veggies",
+    "sample": "Just for you: get 10% OFF on 4 orders! Groceries delivered home!"
+  },
+  "p057": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "alert click consumed data get just topup valid",
+    "sample": "50% ALERT: data is consumed. Get 5GB data topup!"
+  },
+  "p058": {
+    "category": "financial",
+    "confidence": 78,
+    "fingerprint": "bag brand dear dubai favourite free hennur road worth",
+    "sample": "R&B-Dubai's Favourite Fashion Brand now at Hennur Main Road, Bengaluru."
+  },
+  "p059": {
+    "category": "prize",
+    "confidence": 95,
+    "fingerprint": "call claim code entry free receive text txt win wkly",
+    "sample": "Free entry in 2 a wkly comp to win FA Cup final tkts!"
+  },
+  "p060": {
+    "category": "prize",
+    "confidence": 92,
+    "fingerprint": "call claim code customer network prize reward selected valued winner",
+    "sample": "WINNER!! You have been selected to receive a £900 prize reward!"
+  },
+  "p061": {
+    "category": "telecom",
+    "confidence": 85,
+    "fingerprint": "call camera colour entitled free mobile months update",
+    "sample": "Had your mobile 11 months? Update to latest colour mobiles FREE!"
+  },
+  "p062": {
+    "category": "prize",
+    "confidence": 94,
+    "fingerprint": "cash chances cost send text txt win",
+    "sample": "SIX chances to win CASH! From 100 to 20,000 pounds!"
+  },
+  "p063": {
+    "category": "prize",
+    "confidence": 96,
+    "fingerprint": "call claim code free membership prize text txt urgent week won",
+    "sample": "URGENT! You have won a 1 week FREE membership in £100,000 Prize!"
+  },
+  "p064": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "click content credit free mobile movie next txt wap xxx",
+    "sample": "XXXMobileMovieClub: To use your credit, click the WAP link!"
+  },
+  "p065": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "dont england goals macedonia miss national news team text try txt",
+    "sample": "England v Macedonia - dont miss the goals/team news. Txt ur team!"
+  },
+  "p066": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "confirm monthly please reply subscription thanks txt",
+    "sample": "Thanks for your subscription to Ringtone UK. Reply YES or NO."
+  },
+  "p067": {
+    "category": "prize",
+    "confidence": 90,
+    "fingerprint": "call claim code guaranteed hours prize trying urgent valid weekends won",
+    "sample": "URGENT! Last weekends draw shows you won a £900 prize GUARANTEED."
+  },
+  "p068": {
+    "category": "prize",
+    "confidence": 92,
+    "fingerprint": "call claim holiday inc prize speak specially txt winner won",
+    "sample": "You are a winner! £1000 cash or a 4* holiday (flights inc)!"
+  },
+  "p069": {
+    "category": "prize",
+    "confidence": 88,
+    "fingerprint": "call cinema congrats dvd free know player sony top win",
+    "sample": "Congrats! Win a top Sony DVD player! Call now!"
+  },
+  "p070": {
+    "category": "prize",
+    "confidence": 94,
+    "fingerprint": "awarded call claim complimentary disney guaranteed holiday text trip trav txt urgent",
+    "sample": "Urgent UR awarded a complimentary trip to EuroDisney or £1000!"
+  },
+  "p071": {
+    "category": "prize",
+    "confidence": 90,
+    "fingerprint": "award call claim ending match numbers quoting receive selected todays vodafone",
+    "sample": "Todays Vodafone numbers ending are selected to receive a £350 award."
+  },
+  "p072": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "answer country quiz sony sunshine txt weekly win wkly",
+    "sample": "Sunshine Quiz! Win a top Sony DVD player if u know the country!"
+  },
+  "p073": {
+    "category": "financial",
+    "confidence": 78,
+    "fingerprint": "direct dogging lat locations mob night real see sent tonight txt want",
+    "sample": "Want 2 get laid tonight? Want real Dogging locations sent!"
+  },
+  "p074": {
+    "category": "telecom",
+    "confidence": 76,
+    "fingerprint": "chat content free hardcore msg network receive services stop text txt verify",
+    "sample": "You'll not rcv any more msgs. For FREE Hardcore services text GO!"
+  },
+  "p075": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "credits free mobile tones txt week",
+    "sample": "Ur ringtone service has changed! 25 Free credits! Go to club4mobiles.com!"
+  },
+  "p076": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "free mobile quality ringtone singles top chart choose",
+    "sample": "Ringtone Club: Get the UK singles chart on your mobile each week!"
+  },
+  "p077": {
+    "category": "prize",
+    "confidence": 88,
+    "fingerprint": "bonus hmv percent pounds special vouchers win www",
+    "sample": "HMV BONUS SPECIAL 500 pounds of genuine HMV vouchers to be won!"
+  },
+  "p078": {
+    "category": "prize",
+    "confidence": 92,
+    "fingerprint": "call claim hours identifier prize private redeemed sim statement trying urgent",
+    "sample": "PRIVATE! Your Account Statement shows un-redeemed Bonus Points. Call to claim!"
+  },
+  "p079": {
+    "category": "prize",
+    "confidence": 94,
+    "fingerprint": "attempt awarded bonus call caller claim code contact final mobile try urgent",
+    "sample": "URGENT! Your Mobile No. was awarded £2000 Bonus Caller Prize!"
+  },
+  "p080": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "age date flirt join meet reply sexy text today",
+    "sample": "Text & meet someone sexy today. Join for just 10p. REPLY with NAME!"
+  },
+  "p081": {
+    "category": "prize",
+    "confidence": 90,
+    "fingerprint": "admirer call contact find looking make mob reveal secret special",
+    "sample": "U have a secret admirer who is looking 2 make contact with U!"
+  },
+  "p082": {
+    "category": "prize",
+    "confidence": 88,
+    "fingerprint": "award cd entry free guaranteed music txt vouchers weekly won",
+    "sample": "Congratulations ur awarded 500 of CD vouchers! Free entry 2 wkly draw!"
+  },
+  "p083": {
+    "category": "financial",
+    "confidence": 86,
+    "fingerprint": "balance cash maximize now only send sms txt",
+    "sample": "Ur cash-balance is currently 500 pounds - maximize ur cash-in now!"
+  },
+  "p084": {
+    "category": "prize",
+    "confidence": 90,
+    "fingerprint": "call customer free guaranteed please prize representative service won",
+    "sample": "Please call our customer service on FREEPHONE. You have WON £1000!"
+  },
+  "p085": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "collect free password reply ringtone text txt verify waiting",
+    "sample": "Your free ringtone is waiting! Simply text the password MIX to 85069!"
+  },
+  "p086": {
+    "category": "prize",
+    "confidence": 94,
+    "fingerprint": "awarded call claim guaranteed land line prize text trying urgent",
+    "sample": "URGENT! We are trying to contact you. You won a £900 prize GUARANTEED!"
+  },
+  "p087": {
+    "category": "financial",
+    "confidence": 80,
+    "fingerprint": "credit find horny live mobile phone send sexy text txt ur",
+    "sample": "Hey I am really horny want to chat! Text hot to 69698!"
+  },
+  "p088": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "call camera customer loyalty mobile orange pay update",
+    "sample": "Orange customer, you may now claim your FREE CAMERA PHONE upgrade!"
+  },
+  "p089": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "charged msg mtmsg nokia phone sms txt word",
+    "sample": "500 New Mobiles from 2004, MUST GO! Txt NOKIA to collect yours today!"
+  },
+  "p090": {
+    "category": "telecom",
+    "confidence": 76,
+    "fingerprint": "career dream find flying free horo partner sign star start text",
+    "sample": "Will u meet ur dream partner soon? Find out free, txt HORO!"
+  },
+  "p091": {
+    "category": "prize",
+    "confidence": 92,
+    "fingerprint": "call claim customer hours identifier private redeemed sim statement valid",
+    "sample": "PRIVATE! Your 2004 Account Statement shows unredeemed S.I.M. points!"
+  },
+  "p092": {
+    "category": "prize",
+    "confidence": 88,
+    "fingerprint": "call claim customer msg reply sms week won",
+    "sample": "Customer service annoncement. You have a New Years delivery waiting!"
+  },
+  "p093": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "bootydelicious click friend her inviting reply see send sms stop www",
+    "sample": "bootydelicious is inviting you to be her friend. Reply YES or NO!"
+  },
+  "p094": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "bangbabes content deliver download mobile msg order receive service wap",
+    "sample": "BangBabes Ur order is on the way. Download UR content."
+  },
+  "p095": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "babes check content funky games gossip keep latest mobile selection sport text tones wap",
+    "sample": "TheMob Check out our newest selection of content, Games, Tones, Gossip!"
+  },
+  "p096": {
+    "category": "prize",
+    "confidence": 86,
+    "fingerprint": "play quiz text think txt weekly win",
+    "sample": "Think ur smart? Win £200 this week in our weekly quiz!"
+  },
+  "p097": {
+    "category": "telecom",
+    "confidence": 84,
+    "fingerprint": "bluetooth camera customer free loyalty mobile orange reply",
+    "sample": "T-Mobile customer you may now claim your FREE CAMERA PHONE upgrade!"
+  },
+  "p098": {
+    "category": "prize",
+    "confidence": 88,
+    "fingerprint": "call claim guaranteed land line prize selected specially speak talk txt winner won",
+    "sample": "You are specially selected to receive a 2000 pound award! Call now!"
+  },
+  "p099": {
+    "category": "banking",
+    "confidence": 95,
+    "fingerprint": "account bank blocked kyc verify immediately",
+    "sample": "Your bank account blocked. Verify KYC immediately."
+  },
+  "p100": {
+    "category": "banking",
+    "confidence": 93,
+    "fingerprint": "account alert pan sbi suspended update",
+    "sample": "SBI Alert: Account suspended. Update PAN now."
+  },
+  "p101": {
+    "category": "prize",
+    "confidence": 97,
+    "fingerprint": "congratulations kbc lakhs lottery won",
+    "sample": "Congratulations! You won 25 Lakhs in KBC Lottery!"
+  },
+  "p102": {
+    "category": "job",
+    "confidence": 92,
+    "fingerprint": "daily home job offer parttime payment work",
+    "sample": "Part-time job offer. Daily payment Rs 5000. Work from home."
+  },
+  "p103": {
+    "category": "job",
+    "confidence": 90,
+    "fingerprint": "amazon data entry hiring salary whatsapp",
+    "sample": "Hiring for Amazon data entry. WhatsApp now."
+  },
+  "p104": {
+    "category": "banking",
+    "confidence": 96,
+    "fingerprint": "otp share transaction valid pending",
+    "sample": "Your OTP is valid. Do not share with anyone."
+  },
+  "p105": {
+    "category": "banking",
+    "confidence": 94,
+    "fingerprint": "failed gpay pending request upi paytm",
+    "sample": "Your UPI request pending. Approve now."
+  },
+  "p106": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "bluetooth camera free mobile orange update",
+    "sample": "Update Now - Free Bluetooth with latest camera phones!"
+  },
+  "p107": {
+    "category": "financial",
+    "confidence": 82,
+    "fingerprint": "discount genuine portfolio regal voucher code stop www",
+    "sample": "Here is your discount code. Stop for more info."
+  },
+  "p108": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "call cost min national premium rate services",
+    "sample": "Premium phone services call at cost 10p per min."
+  },
+  "p109": {
+    "category": "banking",
+    "confidence": 88,
+    "fingerprint": "call claim free guaranteed land prize won",
+    "sample": "You have WON a guaranteed £1000 cash! Call to claim!"
+  },
+  "p110": {
+    "category": "prize",
+    "confidence": 90,
+    "fingerprint": "awarded call claim guaranteed prize register urgent",
+    "sample": "UR awarded guaranteed prize or £1000! Call now to claim!"
+  },
+  "p111": {
+    "category": "telecom",
+    "confidence": 76,
+    "fingerprint": "free partner quiz romantic start text trip valentine",
+    "sample": "Valentines Day Special! Win over £1000 in our quiz!"
+  },
+  "p112": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "bluetooth camera free mobile min txt unlimited",
+    "sample": "Double mins and txts FREE Bluetooth on latest phones!"
+  },
+  "p113": {
+    "category": "telecom",
+    "confidence": 76,
+    "fingerprint": "call camera free mobile mth orange",
+    "sample": "4mths half price Orange line rental & latest camera phones FREE!"
+  },
+  "p114": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "call cost entry free text txt weekly win",
+    "sample": "FREE entry into our £250 weekly competition! Just text WIN!"
+  },
+  "p115": {
+    "category": "telecom",
+    "confidence": 76,
+    "fingerprint": "heart joined logo love lover names send txt",
+    "sample": "Send a logo 2 ur lover - names joined by a heart!"
+  },
+  "p116": {
+    "category": "financial",
+    "confidence": 80,
+    "fingerprint": "contacted dating entered fancy find land phone someone",
+    "sample": "Someone has contacted our dating service because they fancy you!"
+  },
+  "p117": {
+    "category": "banking",
+    "confidence": 85,
+    "fingerprint": "call credit direct free germany pence per rate",
+    "sample": "Call Germany for only 1 pence per minute! Call from fixed line!"
+  },
+  "p118": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "days euro keep kick latest news results start text",
+    "sample": "22 days to kick off! For Euro2004 you will be kept up to date!"
+  },
+  "p119": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "call camera free mobile update latest",
+    "sample": "December only! Free update to latest colour camera mobile!"
+  },
+  "p120": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "call discover phone quiz txt",
+    "sample": "Call 09066 to discover your future! Text for quiz!"
+  },
+  "p121": {
+    "category": "financial",
+    "confidence": 84,
+    "fingerprint": "help loan money prepayment rate tenants welcome",
+    "sample": "Loan for any purpose £500-£75,000. Homeowners + Tenants welcome!"
+  },
+  "p122": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "call freephone important delivery customer service",
+    "sample": "You have an important customer service announcement. Call FREEPHONE!"
+  },
+  "p123": {
+    "category": "telecom",
+    "confidence": 76,
+    "fingerprint": "call cost ringtone service thanks txt unsubscribe",
+    "sample": "Thanks for your Ringtone Order. You will be charged per week."
+  },
+  "p124": {
+    "category": "prize",
+    "confidence": 88,
+    "fingerprint": "call claim hours prize trying contact urgent won",
+    "sample": "URGENT! We tried to contact you. You WON a prize!"
+  },
+  "p125": {
+    "category": "telecom",
+    "confidence": 82,
+    "fingerprint": "best claims content free ipod latest mp nokia phone txt",
+    "sample": "You are guaranteed the latest Nokia Phone or a £500 prize!"
+  },
+  "p126": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "chat guy horny new text txt",
+    "sample": "New TEXTBUDDY Chat 2 horny guys in ur area for just 25p!"
+  },
+  "p127": {
+    "category": "prize",
+    "confidence": 86,
+    "fingerprint": "awarded call claim quoting vodafone",
+    "sample": "Todays Vodafone numbers selected to receive a £350 award!"
+  },
+  "p128": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "msg offer stop txt voucher",
+    "sample": "Today's Offer! Claim ur £150 worth of discount vouchers!"
+  },
+  "p129": {
+    "category": "telecom",
+    "confidence": 78,
+    "fingerprint": "hours receive terms tone within",
+    "sample": "You will receive your tone within the next 24hrs."
+  },
+  "p130": {
+    "category": "prize",
+    "confidence": 92,
+    "fingerprint": "account call claim hours identifier points private redeemed sim statement",
+    "sample": "PRIVATE! Your 2003 Account Statement shows 800 un-redeemed points!"
+  },
+  "p131": {
+    "category": "telecom",
+    "confidence": 80,
+    "fingerprint": "camera congrats mobile phone video win",
+    "sample": "Congrats! Nokia 3650 video camera phone is yours! Call now!"
+  },
+  "p132": {
+    "category": "banking",
+    "confidence": 88,
+    "fingerprint": "hdfc icici kyc update immediately pan link aadhaar",
+    "sample": "HDFC Alert: Link Aadhaar with PAN immediately."
+  },
+  "p133": {
+    "category": "banking",
+    "confidence": 90,
+    "fingerprint": "account suspend block inactive kyc update call",
+    "sample": "Your account will be suspended. Update KYC or call support."
+  },
+  "p134": {
+    "category": "prize",
+    "confidence": 94,
+    "fingerprint": "crore lottery winner claim prize call whatsapp",
+    "sample": "You won 1 Crore in lottery! Call or WhatsApp to claim!"
+  },
+  "p135": {
+    "category": "job",
+    "confidence": 88,
+    "fingerprint": "flipkart amazon delivery job apply whatsapp",
+    "sample": "Flipkart Amazon delivery job available. Apply on WhatsApp!"
+  },
+  "p136": {
+    "category": "tech_support",
+    "confidence": 85,
+    "fingerprint": "computer virus detected microsoft call support",
+    "sample": "Virus detected on your computer. Call Microsoft support now!"
+  },
+  "p137": {
+    "category": "tech_support",
+    "confidence": 82,
+    "fingerprint": "suspicious login alert verify identity click link",
+    "sample": "Suspicious login detected. Verify your identity now!"
+  },
+  "p138": {
+    "category": "banking",
+    "confidence": 92,
+    "fingerprint": "upi payment failed refund pending click",
+    "sample": "UPI payment failed. Refund pending. Click to claim."
+  },
+  "p139": {
+    "category": "financial",
+    "confidence": 85,
+    "fingerprint": "investment opportunity guaranteed returns daily profit",
+    "sample": "Investment opportunity with guaranteed daily returns!"
+  },
+  "p140": {
+    "category": "job",
+    "confidence": 86,
+    "fingerprint": "typing job home earn weekly payment",
+    "sample": "Simple typing job from home. Earn weekly payment!"
+  },
+  "p141": {
+    "category": "prize",
+    "confidence": 94,
+    "fingerprint": "won prize claim call urgent mobile awarded",
+    "sample": "This is the 2nd time we have tried 2 contact u. U have won the 750 Pound prize."
+  },
+  "p142": {
+    "category": "banking",
+    "confidence": 96,
+    "fingerprint": "kyc expired customer care block account paytm",
+    "sample": "Dear PAYTM customer your Paytm KYC has expired. Contact customer care immediately."
+  },
+  "p143": {
+    "category": "voicemail",
+    "confidence": 88,
+    "fingerprint": "urgent message waiting call please voicemail",
+    "sample": "Please CALL immediately as there is an urgent message waiting for you."
+  },
+  "p144": {
+    "category": "banking",
+    "confidence": 95,
+    "fingerprint": "atm card deactivated bvn upgrade reactivate customer care",
+    "sample": "Due to BVN system upgrade your ATM CARD has been De-activated."
+  },
+  "p145": {
+    "category": "voicemail",
+    "confidence": 86,
+    "fingerprint": "new voicemail please call",
+    "sample": "You have 1 new voicemail. Please call now."
+  },
+  "p146": {
+    "category": "prize",
+    "confidence": 92,
+    "fingerprint": "video phone free mins half price line rental",
+    "sample": "Want a new Video Phone? 750 anytime any network mins? Half price line rental?"
+  },
+  "p147": {
+    "category": "dating",
+    "confidence": 88,
+    "fingerprint": "secret admirer reveal special call",
+    "sample": "U have a secret admirer. REVEAL who thinks U R So special."
+  },
+  "p148": {
+    "category": "telecom",
+    "confidence": 90,
+    "fingerprint": "update latest colour mobile camera free call",
+    "sample": "U R entitled to Update to the latest colour mobiles with camera for Free!"
+  },
+  "p149": {
+    "category": "prize",
+    "confidence": 91,
+    "fingerprint": "discount code stop messages customer services",
+    "sample": "Here is your discount code. To stop further messages reply stop."
+  },
+  "p150": {
+    "category": "prize",
+    "confidence": 93,
+    "fingerprint": "tried contact offer mins text video phone",
+    "sample": "We tried to contact you re your reply to our offer of 750 mins."
+  },
+  "p151": {
+    "category": "prize",
+    "confidence": 95,
+    "fingerprint": "congratulations awarded cd gift vouchers weekly draw",
+    "sample": "Congratulations ur awarded either £500 of CD gift vouchers & Free entry."
+  },
+  "p152": {
+    "category": "adult",
+    "confidence": 85,
+    "fingerprint": "free sexy pic txt jordan",
+    "sample": "FREE2DAY sexy pic! Txt PIC to 89080 dont miss out."
+  },
+  "p153": {
+    "category": "prize",
+    "confidence": 97,
+    "fingerprint": "urgent mobile awarded bonus caller prize landline",
+    "sample": "URGENT! Your Mobile No. was awarded £2000 Bonus Caller Prize."
+  },
+  "p154": {
+    "category": "dating",
+    "confidence": 87,
+    "fingerprint": "secret admirer looking contact find reveal special",
+    "sample": "U have a secret admirer who is looking 2 make contact with U."
+  },
+  "p155": {
+    "category": "prize",
+    "confidence": 92,
+    "fingerprint": "free entry weekly comp send word enter",
+    "sample": "FREE entry into our £250 weekly comp just send the word ENTER."
+  },
+  "p156": {
+    "category": "prize",
+    "confidence": 96,
+    "fingerprint": "winner valued network customer selected prize reward claim",
+    "sample": "WINNER!! As a valued network customer you have been selected to receive a £900 prize reward!"
+  },
+  "p157": {
+    "category": "ecommerce",
+    "confidence": 94,
+    "fingerprint": "urgent dear customer won prize guaranteed call claim",
+    "sample": "URGENT! Dear FL1PKART Customer, You w0n a Rs.2,00,000 prize GUARANTEED."
+  },
+  "p158": {
+    "category": "ecommerce",
+    "confidence": 93,
+    "fingerprint": "customer service representative guaranteed cash prize flipkart",
+    "sample": "Please call our customer service representative as you have W0N a guaranteed cash prize."
+  },
+  "p159": {
+    "category": "prize",
+    "confidence": 89,
+    "fingerprint": "winner selected receive cash speak live operator claim",
+    "sample": "You are a winner U have been specially selected 2 receive £1000 cash."
+  },
+  "p160": {
+    "category": "prize",
+    "confidence": 91,
+    "fingerprint": "todays numbers ending selected receive award match claim",
+    "sample": "Todays Voda numbers ending 5226 are selected to receive a £350 award."
+  },
+  "p161": {
+    "category": "prize",
+    "confidence": 94,
+    "fingerprint": "won guaranteed prize claim call customer service",
+    "sample": "You have WON a guaranteed £1000 cash or a £2000 prize. To claim yr prize call."
+  },
+  "p162": {
+    "category": "prize",
+    "confidence": 90,
+    "fingerprint": "vodafone customer winner guaranteed caller prize claim call",
+    "sample": "Dear V0DAF0NE Customer,You are a 5,00,000 winner of Guaranteed Caller Prize."
+  },
+  "p163": {
+    "category": "dating",
+    "confidence": 86,
+    "fingerprint": "dating service contact shy call revealed",
+    "sample": "Our dating service has been asked 2 contact U by someone shy!"
+  },
+  "p164": {
+    "category": "loan",
+    "confidence": 88,
+    "fingerprint": "loan purpose homeowners tenants refused help call free",
+    "sample": "Loan for any purpose £500 - £75,000. Homeowners + Tenants welcome."
+  },
+  "p165": {
+    "category": "ringtone",
+    "confidence": 82,
+    "fingerprint": "thanks ringtone order reference mobile charged customer services",
+    "sample": "Thanks for your ringtone order, your mobile will be charged."
+  },
+  "p166": {
+    "category": "charity",
+    "confidence": 89,
+    "fingerprint": "million dollar transfer charity work help poor contact",
+    "sample": "My name is Theresa & I have 7.3milion Dollar to transfer to you for charity work."
+  },
+  "p167": {
+    "category": "prize",
+    "confidence": 91,
+    "fingerprint": "video handset anytime network mins unlimited text camcorder reply call",
+    "sample": "Do you want a new Video handset? 750 any time any network mins? UNLIMITED TEXT?"
+  },
+  "p168": {
+    "category": "ecommerce",
+    "confidence": 92,
+    "fingerprint": "bestbuy gift selected gift card winner",
+    "sample": "You have been randomly selected for a BestBuy gift. Get your $1000 gift card."
+  },
+  "p169": {
+    "category": "banking",
+    "confidence": 95,
+    "fingerprint": "bmo unusual activities online account verify details",
+    "sample": "BMO have noticed unusual activites on your online account. Verify your account details."
+  },
+  "p170": {
+    "category": "tax",
+    "confidence": 94,
+    "fingerprint": "tax refund ready claimed access refund steps",
+    "sample": "Your tax refund of £349.14 is ready to be claimed. Follow the steps required."
+  },
+  "p171": {
+    "category": "claim",
+    "confidence": 87,
+    "fingerprint": "dear voucher holder claim weeks offer visit",
+    "sample": "Dear Voucher Holder, To claim this weeks offer, at your PC please go."
+  },
+  "p172": {
+    "category": "reality",
+    "confidence": 83,
+    "fingerprint": "chance reality fantasy show call now",
+    "sample": "YOUR CHANCE TO BE ON A REALITY FANTASY SHOW call now."
+  },
+  "p173": {
+    "category": "ringtone",
+    "confidence": 80,
+    "fingerprint": "poly tones mobs direct reply title",
+    "sample": "Gr8 Poly tones 4 ALL mobs direct 2u rply with POLY TITLE."
+  },
+  "p174": {
+    "category": "dating",
+    "confidence": 85,
+    "fingerprint": "dear invited xchat final attempt contact txt chat",
+    "sample": "Dear U've been invited to XCHAT. This is our final attempt to contact u!"
+  },
+  "p175": {
+    "category": "subscription",
+    "confidence": 84,
+    "fingerprint": "unsubscribed services sexy babes hunks phone subscriptions",
+    "sample": "You are now unsubscribed all services. Get tons of sexy babes or hunks straight to your phone!"
+  },
+  "p176": {
+    "category": "dating",
+    "confidence": 86,
+    "fingerprint": "secret admirer looking contact reveal special call",
+    "sample": "U have a Secret Admirer who is looking 2 make contact with U."
+  },
+  "p177": {
+    "category": "prize",
+    "confidence": 88,
+    "fingerprint": "thanks continued support question week draw cash",
+    "sample": "Thanks 4 your continued support Your question this week will enter u in2 our draw."
+  },
+  "p178": {
+    "category": "subscription",
+    "confidence": 82,
+    "fingerprint": "goldviking inviting friend reply see stop send",
+    "sample": "goldviking is inviting you to be his friend. Reply YES or NO."
+  },
+  "p179": {
+    "category": "religious",
+    "confidence": 78,
+    "fingerprint": "rediscover meaning life peace true sikh sms join",
+    "sample": "Rediscover the deeper meaning of life. Understand the essence of being a true Sikh."
+  },
+  "p180": {
+    "category": "subscription",
+    "confidence": 81,
+    "fingerprint": "freemsgs xmas tones reply real",
+    "sample": "FreeMsg FAV XMAS TONES! Reply REAL."
+  },
+  "p181": {
+    "category": "dating",
+    "confidence": 84,
+    "fingerprint": "dont know send chat find each",
+    "sample": "I don't know u and u don't know me. Send CHAT and let's find each other!"
+  },
+  "p182": {
+    "category": "property",
+    "confidence": 83,
+    "fingerprint": "plots available near chowk booking starts onwards instalments call",
+    "sample": "Plots available at greater noida near pari chowk, booking starts."
+  },
+  "p183": {
+    "category": "subscription",
+    "confidence": 80,
+    "fingerprint": "enjoy videosound gold club credits videosounds logos musicnews fun",
+    "sample": "Enjoy the jamster videosound gold club with your credits for new videosounds!"
+  },
+  "p184": {
+    "category": "subscription",
+    "confidence": 79,
+    "fingerprint": "kick off season weeks free goals news mobile txt club",
+    "sample": "Kick off a new season with 2wks FREE goals & news to ur mobile!"
+  },
+  "p185": {
+    "category": "subscription",
+    "confidence": 78,
+    "fingerprint": "networks allow companies bill sms responsible suppliers",
+    "sample": "NETWORKS allow companies to bill for SMS, so they are responsible."
+  },
+  "p186": {
+    "category": "dating",
+    "confidence": 82,
+    "fingerprint": "ever thought living good life perfect partner txt back name age",
+    "sample": "Ever thought about living a good life with a perfect partner? Just txt back."
+  },
+  "p187": {
+    "category": "subscription",
+    "confidence": 80,
+    "fingerprint": "freemsg video pic fones reply wild send pics hurry",
+    "sample": "FreeMsg Hey U, i just got 1 of these video/pic fones, reply WILD."
+  },
+  "p188": {
+    "category": "subscription",
+    "confidence": 79,
+    "fingerprint": "get ringtones logos games questions info",
+    "sample": "Get more ringtones, logos and games from the website."
+  },
+  "p189": {
+    "category": "subscription",
+    "confidence": 77,
+    "fingerprint": "chatlines inclu free mins cust serv mega bill bailiff",
+    "sample": "ASKED MOBILE IF CHATLINES INCLU IN FREE MINS. L8ER GOT MEGA BILL."
+  },
+  "p190": {
+    "category": "passport",
+    "confidence": 85,
+    "fingerprint": "step service passport assistance pan card income tax return contact",
+    "sample": "Step Service for Passport Assistance/PAN Card/Income Tax Return Contact."
+  },
+  "p191": {
+    "category": "subscription",
+    "confidence": 76,
+    "fingerprint": "ipl battle royale click mobile stop mix alerts",
+    "sample": "Battle Royale! Click for IPL on mobile. To stop MIX alerts click."
+  },
+  "p192": {
+    "category": "prize",
+    "confidence": 88,
+    "fingerprint": "garden ready summer free selection bulbs seeds worth saturday stop",
+    "sample": "Get your garden ready for summer with a FREE selection of summer bulbs and seeds worth £33."
+  },
+  "p193": {
+    "category": "prize",
+    "confidence": 90,
+    "fingerprint": "urgent flipkart customer weekends draw won prize guaranteed call claim valid",
+    "sample": "URGENT! Dear FL1PKART Customer, Last weekends draw shows that you w0n a Rs.5,00,000 prize GUARANTEED."
+  },
+  "p194": {
+    "category": "banking",
+    "confidence": 92,
+    "fingerprint": "sbi vip trolley cashback diwali offers bag duffle free",
+    "sample": "Biggest Diwali Offers - FREE VIP Trolley + SBI Cashback."
+  },
+  "p195": {
+    "category": "telecom",
+    "confidence": 85,
+    "fingerprint": "call indian inform number phone received toll free",
+    "sample": "While receiving international call inform toll free number."
+  },
+  "p196": {
+    "category": "subscription",
+    "confidence": 81,
+    "fingerprint": "reply name age mobile community sms",
+    "sample": "Txt back NAME and AGE to join the mobile community."
+  },
+  "p197": {
+    "category": "prize",
+    "confidence": 89,
+    "fingerprint": "we tried contact offer video phone mins text delivery",
+    "sample": "We tried to contact you re your reply to our offer of a Video Phone."
+  },
+  "p198": {
+    "category": "ecommerce",
+    "confidence": 91,
+    "fingerprint": "amazon prime black dth disney hotstar subscription switch year",
+    "sample": "Vi Family 999 plan - 220GB data, UL Calls, Disney+ Hotstar."
+  },
+  "p199": {
+    "category": "prize",
+    "confidence": 87,
+    "fingerprint": "triple offer apply credit card gift prime",
+    "sample": "Dear Customer, Triple OFFER: Apply for Credit Card."
+  },
+  "p200": {
+    "category": "banking",
+    "confidence": 93,
+    "fingerprint": "cash loan rupees quick approval paperwork congrats confirmed",
+    "sample": "Get Cash Loan up to Rs.50,000. Quick approval! Congrats Confirmed."
+  }
+}
