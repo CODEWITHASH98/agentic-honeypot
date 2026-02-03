@@ -52,7 +52,10 @@ async def shutdown_event():
     await extraction_pipeline.close()
 
 @app.post("/api/v1/scam-analysis", response_model=ScamResponse)
-async def analyze_scam(request: ScamRequest, x_api_key: str = Security(api_key_header)):
+async def analyze_scam(
+    request: Request,
+    x_api_key: str = Security(api_key_header)
+):
     """
     Analyze a message for scam content, extract intelligence, and generate an autonomous agent response.
     
@@ -70,21 +73,50 @@ async def analyze_scam(request: ScamRequest, x_api_key: str = Security(api_key_h
     # 1. Auth check
     if x_api_key != settings.API_SECRET_KEY:
         raise HTTPException(status_code=401, detail="Invalid API Key")
+    
+    # Parse flexible request body
+    try:
+        body = await request.json()
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid JSON body")
+    
+    # Extract fields with multiple possible names
+    conv_id = (
+        body.get("conversation_id") or 
+        body.get("conversationId") or 
+        body.get("session_id") or 
+        body.get("sessionId") or 
+        f"conv-{time.time()}"
+    )
+    
+    message_content = (
+        body.get("message") or 
+        body.get("content") or 
+        body.get("text") or 
+        ""
+    )
+    
+    # Handle messages array if present
+    messages = body.get("messages", [])
+    if messages and isinstance(messages, list) and len(messages) > 0:
+        last_msg = messages[-1]
+        if isinstance(last_msg, dict):
+            message_content = last_msg.get("content") or last_msg.get("text") or last_msg.get("message") or message_content
+        elif isinstance(last_msg, str):
+            message_content = last_msg
+    
+    if not message_content:
+        raise HTTPException(status_code=400, detail="No message content provided. Use 'message', 'content', or 'text' field.")
 
     # 2. Get/Create Session
-    session_data = await state_manager.get_session(request.conversation_id)
+    session_data = await state_manager.get_session(conv_id)
     if not session_data:
         session_data = {
             "history": [],
             "turn_count": 0,
-            "metadata": request.session_metadata.model_dump() if request.session_metadata else {"source": "api"},
+            "metadata": body.get("session_metadata") or {"source": "api"},
             "extracted": {"upi_ids": [], "bank_accounts": [], "phone_numbers": [], "urls": []}
         }
-    
-    # 3. Get message content (supports both simple 'message' and 'messages' list)
-    message_content = request.get_latest_message()
-    if not message_content:
-        raise HTTPException(status_code=400, detail="No message content provided")
     
     session_data["history"].append({"sender": "user", "content": message_content})
     
@@ -166,7 +198,7 @@ async def analyze_scam(request: ScamRequest, x_api_key: str = Security(api_key_h
         )
     
     # 10. Save Session
-    await state_manager.save_session(request.conversation_id, session_data)
+    await state_manager.save_session(conv_id, session_data)
 
     # 11. Metrics
     processing_time = (time.time() - start_time) * 1000
@@ -178,7 +210,7 @@ async def analyze_scam(request: ScamRequest, x_api_key: str = Security(api_key_h
         engagement_seconds = 0
     
     return ScamResponse(
-        conversation_id=request.conversation_id,
+        conversation_id=conv_id,
         detection=detection_result,
         agent_response=agent_res,
         extracted_intelligence=extraction_result,

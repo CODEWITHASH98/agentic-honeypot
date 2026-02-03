@@ -12,15 +12,30 @@ class SessionMetadata(BaseModel):
     session_start: str = Field(default_factory=lambda: datetime.now().isoformat())
 
 class ScamRequest(BaseModel):
-    conversation_id: str = Field(default_factory=lambda: f"conv-{datetime.now().timestamp()}")
+    # Support multiple field names for compatibility
+    conversation_id: Optional[str] = Field(default=None, alias="conversationId")
+    session_id: Optional[str] = Field(default=None, alias="sessionId")
     messages: Optional[List[Message]] = None
-    message: Optional[str] = None  # Simple single message alternative
+    message: Optional[str] = None
+    content: Optional[str] = None  # GUVI might use 'content'
+    text: Optional[str] = None  # Or 'text'
     session_metadata: Optional[SessionMetadata] = None
+    
+    class Config:
+        populate_by_name = True  # Allow both alias and field name
+    
+    def get_conversation_id(self) -> str:
+        """Get conversation ID from various possible field names"""
+        return self.conversation_id or self.session_id or f"conv-{datetime.now().timestamp()}"
     
     def get_latest_message(self) -> str:
         """Get the message content to analyze"""
         if self.message:
             return self.message
+        if self.content:
+            return self.content
+        if self.text:
+            return self.text
         if self.messages and len(self.messages) > 0:
             return self.messages[-1].content
         return ""
