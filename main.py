@@ -18,7 +18,8 @@ from app.config import settings
 app = FastAPI(
     title="Agentic Honey-Pot API", 
     version="1.0.0",
-    description="Scam detection and intelligence extraction API for hackathon evaluation"
+    description="Scam detection and intelligence extraction API for hackathon evaluation",
+    redirect_slashes=False  # Prevent 307 redirects that lose POST body
 )
 
 # Security Scheme for Swagger UI
@@ -52,6 +53,7 @@ async def shutdown_event():
     await extraction_pipeline.close()
 
 @app.post("/api/v1/scam-analysis", response_model=ScamResponse)
+@app.post("/api/v1/scam-analysis/", response_model=ScamResponse, include_in_schema=False)
 async def analyze_scam(
     request: Request,
     x_api_key: str = Security(api_key_header),
