@@ -3,7 +3,7 @@ import asyncio
 from dotenv import load_dotenv
 load_dotenv()  # Load .env before other imports
 
-from fastapi import FastAPI, HTTPException, Header, Request, Security, Depends
+from fastapi import FastAPI, HTTPException, Header, Request, Security, Depends, Body
 from fastapi.security import APIKeyHeader
 from fastapi.middleware.cors import CORSMiddleware
 from app.schemas import ScamRequest, ScamResponse, ConversationMetrics, Message
@@ -54,7 +54,14 @@ async def shutdown_event():
 @app.post("/api/v1/scam-analysis", response_model=ScamResponse)
 async def analyze_scam(
     request: Request,
-    x_api_key: str = Security(api_key_header)
+    x_api_key: str = Security(api_key_header),
+    body_doc: dict = Body(
+        ...,
+        example={
+            "conversation_id": "test-123",
+            "message": "You won a lottery! Send $100 fee now!"
+        }
+    )
 ):
     """
     Analyze a message for scam content, extract intelligence, and generate an autonomous agent response.
@@ -74,11 +81,8 @@ async def analyze_scam(
     if x_api_key != settings.API_SECRET_KEY:
         raise HTTPException(status_code=401, detail="Invalid API Key")
     
-    # Parse flexible request body
-    try:
-        body = await request.json()
-    except Exception:
-        raise HTTPException(status_code=400, detail="Invalid JSON body")
+    # Use body_doc directly (already parsed by FastAPI)
+    body = body_doc
     
     # Extract fields with multiple possible names
     conv_id = (
