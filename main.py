@@ -89,12 +89,20 @@ async def analyze_scam(
         f"conv-{time.time()}"
     )
     
-    message_content = (
-        body.get("message") or 
-        body.get("content") or 
-        body.get("text") or 
-        ""
-    )
+    # Extract message - can be string or dict
+    raw_message = body.get("message") or body.get("content") or body.get("text") or ""
+    
+    # If message is a dict, extract the content
+    if isinstance(raw_message, dict):
+        message_content = (
+            raw_message.get("content") or 
+            raw_message.get("text") or 
+            raw_message.get("message") or 
+            raw_message.get("body") or
+            ""
+        )
+    else:
+        message_content = raw_message
     
     # Handle messages array if present
     messages = body.get("messages", [])
@@ -104,6 +112,10 @@ async def analyze_scam(
             message_content = last_msg.get("content") or last_msg.get("text") or last_msg.get("message") or message_content
         elif isinstance(last_msg, str):
             message_content = last_msg
+    
+    # Ensure message_content is a string
+    if not isinstance(message_content, str):
+        message_content = str(message_content) if message_content else ""
     
     if not message_content:
         raise HTTPException(status_code=400, detail="No message content provided. Use 'message', 'content', or 'text' field.")
