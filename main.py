@@ -131,6 +131,7 @@ async def root():
         
         <div class="buttons">
             <a href="/docs" class="btn btn-primary">📚 API Documentation</a>
+            <a href="/architecture" class="btn btn-primary">🏗️ Architecture</a>
             <a href="https://github.com/CODEWITHASH98/agentic-honeypot" target="_blank" class="btn btn-github">
                 <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor">
                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
@@ -198,6 +199,124 @@ async def root():
             <p>Built for GUVI Hackathon 2026 | <a href="https://github.com/CODEWITHASH98/agentic-honeypot" style="color:#00d4ff;">GitHub</a></p>
         </div>
     </div>
+</body>
+</html>
+    """
+
+@app.get("/architecture", response_class=HTMLResponse)
+async def architecture_page():
+    return """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture - Agentic Honey-Pot</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 40px 20px;
+        }
+        .container { max-width: 1000px; margin: 0 auto; }
+        h1 { color: #00d4ff; margin-bottom: 20px; }
+        h2 { color: #00d4ff; margin: 30px 0 15px; font-size: 1.4rem; }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .mermaid { background: #fff; border-radius: 8px; padding: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        th { color: #00d4ff; }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #00d4ff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="btn">← Back to Home</a>
+        <a href="https://github.com/CODEWITHASH98/agentic-honeypot" class="btn" target="_blank">GitHub</a>
+        
+        <h1>🏗️ System Architecture</h1>
+        
+        <div class="card">
+            <h2>High-Level Architecture</h2>
+            <div class="mermaid">
+flowchart TB
+    subgraph External["External Systems"]
+        SCAMMER["Scammer"]
+        GUVI["GUVI API"]
+    end
+    subgraph API["FastAPI"]
+        ENDPOINT["/api/v1/scam-analysis"]
+        AUTH["API Key Auth"]
+    end
+    subgraph Core["Core Pipeline"]
+        DETECT["Detection"]
+        EXTRACT["Extraction"]
+        AGENT["Agent"]
+    end
+    SCAMMER -->|Message| ENDPOINT
+    ENDPOINT --> AUTH --> DETECT
+    AUTH --> EXTRACT
+    DETECT --> AGENT
+    EXTRACT --> AGENT
+    AGENT -->|Response| SCAMMER
+    AGENT -->|Report| GUVI
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Detection Pipeline</h2>
+            <table>
+                <tr><th>Tier</th><th>Name</th><th>Description</th></tr>
+                <tr><td>1</td><td>Rules</td><td>Keyword & pattern matching</td></tr>
+                <tr><td>2</td><td>Dataset</td><td>Known scam hash lookup</td></tr>
+                <tr><td>2.5</td><td>URL</td><td>Phishing domain detection</td></tr>
+                <tr><td>3</td><td>LLM</td><td>Groq Llama 3.3 analysis</td></tr>
+                <tr><td>4</td><td>Validator</td><td>Self-correction consensus</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Agent Personas</h2>
+            <table>
+                <tr><th>Persona</th><th>Traits</th><th>Best For</th></tr>
+                <tr><td>👴 Elderly Confused</td><td>Trusting, slow</td><td>Financial scams</td></tr>
+                <tr><td>🧑 Young Eager</td><td>Enthusiastic, naive</td><td>Job scams</td></tr>
+                <tr><td>👨‍💼 Cautious Pro</td><td>Skeptical</td><td>Tech support scams</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Component Overview</h2>
+            <table>
+                <tr><th>Component</th><th>File</th><th>Purpose</th></tr>
+                <tr><td>API</td><td>main.py</td><td>Request handling</td></tr>
+                <tr><td>Detection</td><td>detection.py</td><td>4-Tier pipeline</td></tr>
+                <tr><td>Agent</td><td>agent.py</td><td>Response generation</td></tr>
+                <tr><td>Extraction</td><td>extraction.py</td><td>Intel extraction</td></tr>
+                <tr><td>Callback</td><td>guvi_callback.py</td><td>GUVI reporting</td></tr>
+            </table>
+        </div>
+    </div>
+    <script>mermaid.initialize({startOnLoad:true, theme:'default'});</script>
 </body>
 </html>
     """
