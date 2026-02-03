@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()  # Load .env before other imports
 
 from fastapi import FastAPI, HTTPException, Header, Request, Security, Depends, Body
+from fastapi.responses import HTMLResponse
 from fastapi.security import APIKeyHeader
 from fastapi.middleware.cors import CORSMiddleware
 from app.schemas import ScamRequest, ScamResponse, ConversationMetrics, Message
@@ -39,9 +40,167 @@ app.add_middleware(
 async def health_check():
     return {"status": "healthy", "version": "1.0.0"}
 
-@app.get("/")
+@app.get("/", response_class=HTMLResponse)
 async def root():
-    return {"message": "Agentic Honey-Pot API", "docs": "/docs"}
+    return """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic Honey-Pot API</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 40px 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .subtitle { color: #94a3b8; font-size: 1.1rem; margin-bottom: 30px; }
+        .buttons { display: flex; gap: 15px; margin-bottom: 40px; flex-wrap: wrap; }
+        .btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn-primary {
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            color: #fff;
+        }
+        .btn-github {
+            background: #24292e;
+            color: #fff;
+            border: 1px solid #444;
+        }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,212,255,0.3); }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .card h2 { color: #00d4ff; margin-bottom: 15px; font-size: 1.3rem; }
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .feature {
+            background: rgba(0,212,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .feature .icon { font-size: 2rem; margin-bottom: 8px; }
+        .feature h3 { font-size: 1rem; margin-bottom: 5px; }
+        .feature p { font-size: 0.85rem; color: #94a3b8; }
+        pre {
+            background: #1e1e1e;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.85rem;
+        }
+        code { color: #00d4ff; }
+        .mermaid { background: #fff; border-radius: 8px; padding: 15px; margin-top: 15px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        th { color: #00d4ff; }
+        .badge { display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; margin-right: 5px; }
+        .badge-green { background: #10b981; }
+        .badge-blue { background: #3b82f6; }
+        .footer { text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍯 Agentic Honey-Pot API</h1>
+        <p class="subtitle">AI-Powered Scam Detection & Autonomous Engagement System</p>
+        
+        <div class="buttons">
+            <a href="/docs" class="btn btn-primary">📚 API Documentation</a>
+            <a href="https://github.com/CODEWITHASH98/agentic-honeypot" target="_blank" class="btn btn-github">
+                <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+                View on GitHub
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>🎯 Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <div class="icon">🔍</div>
+                    <h3>4-Tier Detection</h3>
+                    <p>Rules → Dataset → URL → LLM → Validator</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🤖</div>
+                    <h3>Autonomous Agent</h3>
+                    <p>Persona-based engagement</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">📊</div>
+                    <h3>Intel Extraction</h3>
+                    <p>UPI, Bank, Phone, URLs</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">⚡</div>
+                    <h3>&lt;2s Latency</h3>
+                    <p>Parallel async processing</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🏗️ Architecture</h2>
+            <table>
+                <tr><th>Component</th><th>Technology</th><th>Purpose</th></tr>
+                <tr><td>API Framework</td><td>FastAPI</td><td>Async request handling</td></tr>
+                <tr><td>LLM</td><td>Groq (Llama 3.3 70B)</td><td>Scam analysis & responses</td></tr>
+                <tr><td>State</td><td>Redis / In-Memory</td><td>Session management</td></tr>
+                <tr><td>Detection</td><td>4-Tier Pipeline</td><td>Multi-layer classification</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>📡 Quick Start</h2>
+            <pre><code>curl -X POST "https://agentic-honeypot-25xp.onrender.com/api/v1/scam-analysis" \\
+  -H "Content-Type: application/json" \\
+  -H "x-api-key: YOUR_API_KEY" \\
+  -d '{"message": "You won a lottery!"}'</code></pre>
+        </div>
+
+        <div class="card">
+            <h2>📋 Endpoints</h2>
+            <table>
+                <tr><th>Method</th><th>Path</th><th>Description</th></tr>
+                <tr><td><span class="badge badge-green">GET</span></td><td>/healthz</td><td>Health check</td></tr>
+                <tr><td><span class="badge badge-blue">POST</span></td><td>/api/v1/scam-analysis</td><td>Analyze scam message</td></tr>
+                <tr><td><span class="badge badge-green">GET</span></td><td>/docs</td><td>Swagger UI</td></tr>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>Built for GUVI Hackathon 2026 | <a href="https://github.com/CODEWITHASH98/agentic-honeypot" style="color:#00d4ff;">GitHub</a></p>
+        </div>
+    </div>
+</body>
+</html>
+    """
 
 @app.on_event("startup")
 async def startup_event():
