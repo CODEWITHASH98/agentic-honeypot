@@ -332,6 +332,7 @@ async def shutdown_event():
 
 @app.post("/api/v1/scam-analysis")
 @app.post("/api/v1/scam-analysis/", include_in_schema=False)
+@app.post("/", include_in_schema=False)  # GUVI might send to base URL
 async def analyze_scam(
     request: Request,
     x_api_key: str = Security(api_key_header),
