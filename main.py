@@ -330,8 +330,8 @@ async def shutdown_event():
     await state_manager.close()
     await extraction_pipeline.close()
 
-@app.post("/api/v1/scam-analysis", response_model=ScamResponse)
-@app.post("/api/v1/scam-analysis/", response_model=ScamResponse, include_in_schema=False)
+@app.post("/api/v1/scam-analysis")
+@app.post("/api/v1/scam-analysis/", include_in_schema=False)
 async def analyze_scam(
     request: Request,
     x_api_key: str = Security(api_key_header),
@@ -485,7 +485,7 @@ async def analyze_scam(
         # Send callback (async, don't wait)
         asyncio.create_task(
             guvi_callback.send_final_result(
-                session_id=request.conversation_id,
+                session_id=conv_id,
                 scam_detected=detection_result.is_scam,
                 total_messages=turn_count * 2,  # scammer + agent messages
                 extracted_intelligence=extracted_data,
@@ -505,21 +505,12 @@ async def analyze_scam(
     except Exception:
         engagement_seconds = 0
     
-    return ScamResponse(
-        conversation_id=conv_id,
-        detection=detection_result,
-        agent_response=agent_res,
-        extracted_intelligence=extraction_result,
-        conversation_metrics=ConversationMetrics(
-            turn_count=turn_count,
-            engagement_duration_seconds=engagement_seconds,
-            extraction_progress=extraction_result.extraction_completeness
-        ),
-        metadata={
-            "processing_time_ms": int(processing_time),
-            "model_version": "v1.0-multi-persona"
-        }
-    )
+    
+    # Return GUVI-compliant format
+    return {
+        "status": "success",
+        "reply": agent_res.message
+    }
 
 if __name__ == "__main__":
     import uvicorn
